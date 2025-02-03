@@ -31,11 +31,11 @@ repos:
     hooks:
       - id: flynt
   - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+    rev: 6.0.0
     hooks:
       - id: isort
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 24.8.0
+    rev: 25.1.0
     hooks:
       - id: black
   - repo: https://github.com/Lucas-C/pre-commit-hooks
@@ -52,7 +52,7 @@ repos:
         args: ["--in-place"]
 
   - repo: https://github.com/tcort/markdown-link-check
-    rev: v3.12.2
+    rev: v3.13.6
     hooks:
       - id: markdown-link-check
         # We have to treat 403 as success, because some sites have ddos protection. So we just need to manually check those
